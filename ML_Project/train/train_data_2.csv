@@ -1,0 +1,11 @@
+python
+import os
+
+# Set path to the train_data_2.csv file
+file_path = os.path.join('ML_Project', 'train', 'train_data_2.csv')
+
+# Write some data to the file
+with open(file_path, 'w') as f:
+    f.write('Some data to write to the file\n')
+    f.write('More data on another line\n')
+    f.write('And a third line of data\n')
