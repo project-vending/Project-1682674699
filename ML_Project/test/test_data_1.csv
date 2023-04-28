@@ -1,0 +1,11 @@
+python
+import csv
+
+# Set path to test_data_1.csv file
+path_to_file = './ML_Project/test/test_data_1.csv'
+
+# Open and read contents of the file
+with open(path_to_file, 'r') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        print(row)
