@@ -1,0 +1,13 @@
+python
+import numpy as np
+import os
+
+# Set path to train_data_1.csv file
+file_path = os.path.join('ML_Project', 'train', 'train_data_1.csv')
+
+# Load data from train_data_1.csv file
+with open(file_path, 'r') as f:
+    data = np.loadtxt(f, delimiter=',')
+
+# Print the shape of the data array
+print(data.shape)
