@@ -1,0 +1,12 @@
+python
+import os
+
+# Path to val_data_2.csv file within validation folder
+file_path = os.path.join('ML_Project', 'validation', 'val_data_2.csv')
+
+# Read val_data_2.csv file
+with open(file_path, 'r') as f:
+    content = f.read()
+
+# Print content of val_data_2.csv file
+print(content)
