@@ -1,0 +1,12 @@
+
+import os
+
+# Set path for the val_data_1.csv file
+val_data_path = os.path.join('ML_Project', 'validation', 'val_data_1.csv')
+
+# Open the file and read its contents
+with open(val_data_path, 'r') as f:
+    val_data_contents = f.read()
+
+# Print the contents of the file to the console
+print(val_data_contents)
